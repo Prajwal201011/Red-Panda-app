@@ -1,16 +1,10 @@
 import streamlit as st
-from streamlit_extras.colored_header import colored_header as ch
-from streamlit_extras.app_logo import add_logo 
-
 st.set_page_config(
         page_title='Contact',
         page_icon="🐼"
     )
 
-ch (label= ":mailbox: Get In Touch With us!",
-               description= "Contact",
-               color_name='red-70')
-st.sidebar.success("Welcome")
+st.header(":mailbox: Get In Touch With us!")
 
 
 
